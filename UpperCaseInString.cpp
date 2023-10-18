@@ -4,7 +4,7 @@ using namespace std;
 char toFind(string s, int i){
     // base case
     if(s[i] == '\0'){
-        return s[i];
+        return 0;
     }
     if(isupper(s[i])){
         return s[i];
